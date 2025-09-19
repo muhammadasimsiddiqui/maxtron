@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-bs-theme="blue-theme">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> <%-title%> | Maxton Admin Dashboard Template</title>
+<!--favicon-->
+<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png">
+  <%- HeaderCss %>
+
+  <%- include ('../partials/head-css.ejs') %>
+
+</head>
+
+<body>
+    <%- include ('../partials/topbar') %>
+    <%- include ('../partials/sidebar') %>
+    <main class="main-wrapper">
+      <div class="main-content">
+          <%- include ('../partials/page-title') %>
+          <%- body%>
+        </div>
+        <!-- container-fluid -->
+      </main>
+      <!-- End Page-content -->
+      <div class="overlay btn-toggle"></div>
+      <%- include ('../partials/footer') %>
+
+  <!-- END layout-wrapper -->
+  <%- include ('../partials/customizer') %>
+  <%- include ('../partials/vendor-scripts') %>
+  <%- FooterJs %>
+
+  <!-- App js -->
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

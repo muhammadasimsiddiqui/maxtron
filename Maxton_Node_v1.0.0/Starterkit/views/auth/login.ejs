@@ -1,0 +1,104 @@
+<%- contentFor('HeaderCss') %>
+<%- include("../partials/title-meta", { "title" : "Login" }) %>
+
+<%- contentFor('body') %>
+<div class="auth-basic-wrapper d-flex align-items-center justify-content-center">
+  <div class="container-fluid my-5 my-lg-0">
+    <div class="row">
+       <div class="col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-4 mx-auto">
+        <div class="card rounded-4 mb-0 border-top border-4 border-primary border-gradient-1">
+          <div class="card-body p-5">
+              <img src="assets/images/logo1.png" class="mb-4" width="145" alt="">
+              <h4 class="fw-bold">Get Started Now</h4>
+              <p class="mb-0">Enter your credentials to login your account</p>
+
+              <div class="form-body">
+              <div class="p-2 mt-4">
+                 <% if(message.length > 0) { %>
+                  <div class="alert alert-success text-center mb-4 flash" role="alert">
+                    <%= message %>
+                  </div>
+                  <% } %>
+                  <% if(error.length > 0) { %>
+                  <div class="alert alert-danger text-center p-2 mb-4 flash" role="alert">
+                    <%= error %>
+                  </div>
+                  <% } %>
+                  <form action="/auth-validate" method="post">
+
+                  <div class="mb-3">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="Email" name="email" value="admin@codervent.com" placeholder="Enter Email">
+                  </div>
+
+                  <div class="mb-3">
+                    <div class="float-end">
+                      <a href="/forgotpassword" class="text-muted">Forgot password?</a>
+                    </div>
+                    <label class="form-label" for="password-input">Password</label>
+                    <div class="input-group" id="show_hide_password">
+                      <input type="password" class="form-control pe-5 password-input" name="password" required minlength="5" value="12345"  placeholder="Enter password" id="inputChoosePassword">
+                      <a href="javascript:;" class="input-group-text bg-transparent"><i class="bi bi-eye-slash-fill"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="auth-remember-check">
+                    <label class="form-check-label" for="auth-remember-check">Remember me</label>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <div class="d-grid">
+                      <button type="submit" class="btn text-light btn-grd-primary">Login</button>
+                    </div>
+                  </div>
+                  <div class="separator section-padding mt-4">
+                    <div class="line"></div>
+                    <p class="mb-0 fw-bold">OR SIGN IN WITH</p>
+                    <div class="line"></div>
+                  </div>
+    
+                  <div class="d-flex gap-3 justify-content-center mt-4">
+                    <a href="javascript:;" class="wh-42 d-flex align-items-center justify-content-center rounded-circle bg-grd-danger">
+                      <i class="bi bi-google fs-5 text-white"></i>
+                    </a>
+                    <a href="javascript:;" class="wh-42 d-flex align-items-center justify-content-center rounded-circle bg-grd-deep-blue">
+                      <i class="bi bi-facebook fs-5 text-white"></i>
+                    </a>
+                    <a href="javascript:;" class="wh-42 d-flex align-items-center justify-content-center rounded-circle bg-grd-info">
+                      <i class="bi bi-linkedin fs-5 text-white"></i>
+                    </a>
+                    <a href="javascript:;" class="wh-42 d-flex align-items-center justify-content-center rounded-circle bg-grd-royal">
+                      <i class="bi bi-github fs-5 text-white"></i>
+                    </a>
+                  </div>
+                </form>
+              </div>
+          </div>
+          <div class="mt-4 text-center">
+            <p class="mb-0">Don't have an account ? <a href="/register" class="fw-semibold text-primary text-decoration-underline"> Signup </a> </p>
+          </div>
+        </div>
+       </div>
+    </div><!--end row-->
+ </div>
+</div>
+<!--authentication-->
+
+<%- contentFor('FooterJs') %>
+<script>
+$(document).ready(function () {
+  $("#show_hide_password a").on('click', function (event) {
+    event.preventDefault();
+    if ($('#show_hide_password input').attr("type") == "text") {
+      $('#show_hide_password input').attr('type', 'password');
+      $('#show_hide_password i').addClass("bi-eye-slash-fill");
+      $('#show_hide_password i').removeClass("bi-eye-fill");
+    } else if ($('#show_hide_password input').attr("type") == "password") {
+      $('#show_hide_password input').attr('type', 'text');
+      $('#show_hide_password i').removeClass("bi-eye-slash-fill");
+      $('#show_hide_password i').addClass("bi-eye-fill");
+    }
+  });
+});
+</script>
