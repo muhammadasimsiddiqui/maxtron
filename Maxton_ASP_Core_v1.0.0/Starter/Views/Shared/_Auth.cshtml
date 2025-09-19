@@ -1,0 +1,18 @@
+﻿<!doctype html>
+<html lang="en" data-bs-theme="blue-theme">
+<head>
+    @Html.Partial("~/Views/Shared/Title_Meta.cshtml")
+    @RenderSection("styles", false)
+    @Html.Partial("~/Views/Shared/Css.cshtml")
+</head>
+<body>
+    @RenderBody()
+
+    @RenderSection("externalhtml", false)
+
+    @Html.Partial("~/Views/Shared/Vendor_Scripts.cshtml")
+
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

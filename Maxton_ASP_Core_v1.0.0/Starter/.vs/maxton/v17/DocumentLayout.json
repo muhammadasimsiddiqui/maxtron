@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Maxton\\Starter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\views\\pages\\e505.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\pages\\e505.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\views\\pages\\e404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\pages\\e404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\views\\shared\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\shared\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\starter\\maxton.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:maxton.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "E505.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Views\\Pages\\E505.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pages\\E505.cshtml",
+              "ToolTip": "D:\\Maxton\\Starter\\Views\\Pages\\E505.cshtml",
+              "RelativeToolTip": "Views\\Pages\\E505.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:28:35.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "E404.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Views\\Pages\\E404.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pages\\E404.cshtml",
+              "ToolTip": "D:\\Maxton\\Starter\\Views\\Pages\\E404.cshtml",
+              "RelativeToolTip": "Views\\Pages\\E404.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:28:28.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Maxton\\Starter\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:08:12.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sidebar.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Views\\Shared\\Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Sidebar.cshtml",
+              "ToolTip": "D:\\Maxton\\Starter\\Views\\Shared\\Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Sidebar.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAGcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:03:58.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Maxton\\Starter\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:03:56.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagesController.cs",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Controllers\\PagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PagesController.cs",
+              "ToolTip": "D:\\Maxton\\Starter\\Controllers\\PagesController.cs",
+              "RelativeToolTip": "Controllers\\PagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:03:18.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Maxton\\Starter\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:03:12.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Maxton\\Starter\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:02:46.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "maxton.csproj",
+              "DocumentMoniker": "D:\\Maxton\\Starter\\maxton.csproj",
+              "RelativeDocumentMoniker": "maxton.csproj",
+              "ToolTip": "D:\\Maxton\\Starter\\maxton.csproj",
+              "RelativeToolTip": "maxton.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-09T04:00:50.203Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

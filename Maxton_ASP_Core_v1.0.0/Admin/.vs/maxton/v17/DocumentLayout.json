@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Maxton\\Admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\admin\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\admin\\views\\pages\\e404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\pages\\e404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|d:\\maxton\\admin\\views\\pages\\e505.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBBBE819-5C97-40F3-A91D-2699BCB4BD3E}|maxton.csproj|solutionrelative:views\\pages\\e505.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagesController.cs",
+              "DocumentMoniker": "D:\\Maxton\\Admin\\Controllers\\PagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PagesController.cs",
+              "ToolTip": "D:\\Maxton\\Admin\\Controllers\\PagesController.cs",
+              "RelativeToolTip": "Controllers\\PagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:34:03.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "E505.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Admin\\Views\\Pages\\E505.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pages\\E505.cshtml",
+              "ToolTip": "D:\\Maxton\\Admin\\Views\\Pages\\E505.cshtml",
+              "RelativeToolTip": "Views\\Pages\\E505.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:33:40.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "E404.cshtml",
+              "DocumentMoniker": "D:\\Maxton\\Admin\\Views\\Pages\\E404.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pages\\E404.cshtml",
+              "ToolTip": "D:\\Maxton\\Admin\\Views\\Pages\\E404.cshtml",
+              "RelativeToolTip": "Views\\Pages\\E404.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:33:34.905Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

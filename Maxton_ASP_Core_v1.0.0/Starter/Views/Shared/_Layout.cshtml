@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html lang="en" data-bs-theme="blue-theme">
+<head>
+    @Html.Partial("~/Views/Shared/Title_Meta.cshtml")
+    @RenderSection("styles", false)
+    @Html.Partial("~/Views/Shared/Css.cshtml")
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/Topbar.cshtml")
+    @Html.Partial("~/Views/Shared/Sidebar.cshtml")
+
+    <!--start main wrapper-->
+    <main class="main-wrapper">
+        <div class="main-content">
+            @Html.Partial("~/Views/Shared/Page_Title.cshtml")
+
+            @RenderBody()
+
+            @RenderSection("externalhtml", false)
+
+        </div>
+    </main>
+    <!--end main wrapper-->
+    <!--start overlay-->
+    <div class="overlay btn-toggle"></div>
+    <!--end overlay-->
+    @Html.Partial("~/Views/Shared/Footer.cshtml")
+
+    @Html.Partial("~/Views/Shared/Cart.cshtml")
+
+    @Html.Partial("~/Views/Shared/Right_sidebar.cshtml")
+
+    @Html.Partial("~/Views/Shared/Vendor_Scripts.cshtml")
+
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
