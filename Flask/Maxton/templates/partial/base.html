@@ -1,0 +1,49 @@
+{% include 'partial/main.html' %}
+
+<head>
+    {% include 'partial/title.html' %}
+
+    
+    {% include 'partial/head-css.html' %}
+    {% block extra_css %}
+
+    {% endblock %}
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    {% include 'partial/header.html' %}
+    <!-- sidebar  -->
+    {% include 'partial/sidebar.html' %}
+
+
+    <!--start main wrapper-->
+    <main class="main-wrapper">
+        <div class="main-content">
+
+
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </main>
+    <!--end main wrapper-->
+
+    <!--start overlay-->
+    <div class="overlay btn-toggle"></div>
+    <!--end overlay-->
+    {% include 'partial/footer.html' %}
+    {% include 'partial/cart.html' %}
+    {% include 'partial/switcher.html' %}
+    {% include 'partial/script_js.html' %}
+
+    {% block extra_js %}
+
+    {% endblock %}
+    <script src="{{ url_for ('static', filename='plugins/simplebar/js/simplebar.min.js') }}"></script>
+
+    <script src="{{ url_for ('static', filename='js/main.js') }}"></script>
+
+</body>
