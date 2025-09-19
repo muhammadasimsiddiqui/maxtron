@@ -1,0 +1,35 @@
+<div class="mb-4">
+  <p>Repeater works!</p>
+  <div class="card">
+    <div class="card-body">
+      <div class="d-flex align-items-center justify-content-between">
+        <h5 class="mb-0">Repeater</h5>
+        <button class="btn btn-primary repeater-add-btn px-4" (click)="addRepeater()">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <form [formGroup]="formGroup">
+    <div formArrayName="items">
+      <div *ngFor="let item of items.controls; let i = index" [formGroupName]="i">
+        <div class="card mt-3">
+          <div class="card-body">
+            <div class="item-content">
+              <div class="mb-3">
+                <label for="inputName{{i}}" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputName{{i}}" placeholder="Name" formControlName="name">
+              </div>
+              <div class="mb-3">
+                <label for="inputEmail{{i}}" class="form-label">Email</label>
+                <input type="text" class="form-control" id="inputEmail{{i}}" placeholder="Email" formControlName="email">
+              </div>
+            </div>
+            <div class="repeater-remove-btn">
+              <button class="btn btn-danger remove-btn px-4" (click)="removeRepeater(i)">Remove</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-xl-9 mx-auto">
+        <h6 class="mb-0 text-uppercase">Fancy File Upload</h6>
+        <hr>
+        <div class="card">
+            <div class="card-body file-uplodify-imgame">
+                <!-- <input> -->
+                <!-- <div class="div dropzone123"> -->
+                <ngx-dropzone (change)="onSelect($event)" class="dropzone123" [style]="{ height: '200px',border: '2px dashed #008cff',background: 'rgb(255 255 255 / 0.12)' }" >
+                    <ngx-dropzone-label> <i class="bx bxs-cloud-upload" style="font-size: 170px;"></i>
+                    </ngx-dropzone-label>
+                    <ngx-dropzone-preview *ngFor="let f of files" [removable]="true" (removed)="onRemove(f)">
+                        <ngx-dropzone-label>{{ f.name }} ({{ f.type }})</ngx-dropzone-label>
+                    </ngx-dropzone-preview>
+                </ngx-dropzone>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--end row-->
+<div class="row">
+    <div class="col-xl-9 mx-auto">
+        <h6 class="mb-0 text-uppercase">Image Uploadify</h6>
+        <hr>
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <ngx-dropzone [style]="{ height: '200px',background: 'var(--bs-body-bg)' }" style="min-height: 350px; border: 2px dashed #d2d2d2;">
+                        <ngx-dropzone-label>
+                            <div class="imageuploadify well">
+                                <div class="imageuploadify-overlay">
+                                    <i class="fa fa-picture-o"></i>
+                                </div>
+                                <!-- <hr style=""> -->
+                                <div class="imageuploadify-images-list text-center" style="display:inline-grid; margin-bottom: 105px;">
+                                    <span class="imageuploadify-message" style="font-size: 24px; padding: 10px;border-top: 1px solid #007bff ;border-bottom: 1px solid #007bff;  color:#007bff ;" >Drag&amp;Drop Your File(s) Here To
+                                        Upload</span>
+                                    <!-- <hr style=""> -->
+                                    <button type="button" class="btn btn-default"  style="background:#fff; display: block; color: #007bff; border-color: #007bff; border-radius: 1em; margin: 25px auto; width: 100%; max-width: 500px">
+                                        or select file to upload
+                                    </button>
+                                </div>
+                            </div>
+                        </ngx-dropzone-label>
+                    </ngx-dropzone>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end row-->

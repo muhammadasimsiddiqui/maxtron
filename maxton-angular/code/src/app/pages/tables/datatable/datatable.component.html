@@ -1,0 +1,140 @@
+ 
+      
+  
+      
+      <!-- <div class="d-flex justify-content-between p-2">
+          <ngb-pagination
+              [collectionSize]="collectionSize"
+              [(page)]="page"
+              [pageSize]="pageSize"
+              (pageChange)="refreshCountries()"
+          >
+          </ngb-pagination> 
+      
+          <select class="form-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="refreshCountries()">
+              <option [ngValue]="2">2 items per page</option>
+              <option [ngValue]="4">4 items per page</option>
+              <option [ngValue]="6">6 items per page</option>
+          </select>
+      </div> -->
+      
+      
+      <h6 class="mb-0 text-uppercase">DataTable Example</h6>
+        <hr>
+        <div class="card">
+            <div class="card-body">
+                <label [ngStyle]="{'display': 'ruby'}">
+                    Show
+                    <select class="form-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="refreshCountries()">
+                        <option [ngValue]="2">2</option>
+                        <option [ngValue]="4">4</option>
+                        <option [ngValue]="6">6</option>
+                    </select>
+                    entries
+                </label>
+                <div class="table-responsive">
+                    <table id="example" class="table table-striped table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (employ of employee; track employ.name) {
+                                <tr>
+                                    <!-- <th scope="row">{{ employ.id }}</th> -->
+                                    <td>{{ employ.name }}</td>
+                                    <td>{{ employ.position }}</td>
+                                    <td>{{ employ.office }}</td>
+                                    <td>{{ employ.age }}</td>
+                                    <td>{{ employ.startDate }}</td>
+                                    <td>{{ employ.salary }}</td>
+                                </tr>
+                            }   
+                         
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="d-flex justify-content-between p-2">
+                        <ngb-pagination
+                            [collectionSize]="collectionSize"
+                            [(page)]="page"
+                            [pageSize]="pageSize"
+                            (pageChange)="refreshCountries()"
+                        >
+                        </ngb-pagination>
+            
+           
+                    <!-- <pagination-controls (pageChange)="p = $event"></pagination-controls> -->
+
+                </div>
+            </div>
+        </div>
+        <h6 class="mb-0 text-uppercase">DataTable Import</h6>
+        <hr>
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="exampledata" class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (employ1 of employee1; track employ1.name) {
+                                <tr>
+                                    <!-- <th scope="row">{{ employ.id }}</th> -->
+                                    <td>{{ employ1.name }}</td>
+                                    <td>{{ employ1.position }}</td>
+                                    <td>{{ employ1.office }}</td>
+                                    <td>{{ employ1.age }}</td>
+                                    <td>{{ employ1.startDate }}</td>
+                                    <td>{{ employ1.salary }}</td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="d-flex justify-content-between p-2">
+                        <ngb-pagination
+                            [collectionSize]="collectionSize1"
+                            [(page)]="page1"
+                            [pageSize]="pageSize1"
+                            (pageChange)="refreshCountries1()"
+                        >
+                        </ngb-pagination>
+                    <!-- <pagination-controls (pageChange)="i = $event"></pagination-controls> -->
+
+                </div>
+            </div>
+        </div>
+     

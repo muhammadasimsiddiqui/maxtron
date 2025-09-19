@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+// @import '~boxicons/css/boxicons.min.css';
+.template {
+    border-color: #17ad37;
+    background-image: linear-gradient(310deg, #17ad37, #98ec2d) !important;
+    color: #FFF;
+  }
+.offcanvas-header{
+  justify-content: space-between;
+}
+
+// Non Linear Vertical start.......................css
+.fade:not(.show) {
+  opacity: inherit;
+}
+.bs-stepper{
+  display: flex;
+}
+.steper-title{
+  font-size: 17px;
+}
+.bs-stepper-header{
+  padding: 13px;
+}
+// Non Linear Vertical end.......................css
+.dropzonewell{
+  text-align:end;
+  background-color: #17ad37;
+}
+
+.sidebar-nav {
+  &.simplebar-scrollable-y{
+    height: 92vh;
+  }
+
+}
+
+.bs-stepper-circle {
+  width: 2.7rem;
+  height: 2.7rem;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #969595;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+
+.bs-stepper .step-trigger {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding: 16px 0px;
+  color: #6c757d;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  background-color: rgb(246 246 246 / 0%);
+  border: none;
+  border-radius: .25rem;
+  transition: background-color .15s ease-out, color .15s ease-out;
+}
+
+[data-bs-theme=blue-theme] body .active .bs-stepper-circle {
+  color: #ffffff;
+  background-color: #007bff;
+  background-image: linear-gradient(310deg, #7928ca, #ff0080) !important;
+  // D:\maxton\c
+}
+// file upload css.......................
+// .file-uplodify-imgame{
+// display: block;
+// width: 100%;
+// height: 200px;
+// box-sizing: border-box;
+// border: 2px dashed #008cff;
+// border-radius: 3px;
+// padding: 0;
+// background-color: rgb(255 255 255 / 0.12);
+// background-image: url(fancy_upload.png);
+// background-repeat: no-repeat;
+// background-position: center center;
+// opacity: 0.85;
+// cursor: pointer;
+// outline: none;
+// }
+// calender
+// .fc-event-title,.fc-event-time{
+//   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+// }
+// .fc-event-title.fc-sticky {
+//   color: #fff;
+//   color: var(--fc-event-text-color, #fff);
+// }
